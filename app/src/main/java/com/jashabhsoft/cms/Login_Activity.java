@@ -57,7 +57,7 @@ public class Login_Activity extends AppCompatActivity {
 
 
         if (u_num.isEmpty() ) {
-            num.setError("Enter cinc|number");
+            num.setError("Enter number");
             valid = false;
         }
         else if (u_pass.isEmpty()) {

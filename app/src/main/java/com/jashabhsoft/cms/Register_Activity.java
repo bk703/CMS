@@ -67,8 +67,9 @@ public void validate()
     String u_email = email.getText().toString();
     String u_lname = lname.getText().toString();
     String u_address = address.getText().toString();
-    if (u_email.isEmpty() || u_email.length() < 3) {
-        email.setError("at least 3 characters");
+    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+    if (u_email.isEmpty() || u_email.length() < 3 || u_email.matches(emailPattern)) {
+        email.setError("Email Required");
         email.findFocus();
         valid = false;
     } else {
