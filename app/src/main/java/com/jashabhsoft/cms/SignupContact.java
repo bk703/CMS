@@ -100,7 +100,7 @@ public class SignupContact extends AppCompatActivity {
     }
     void uploaddata()
     {
-        AndroidNetworking.post("https://jashabhsoft.com/Tanker/register.php?email="+email+"&password="+password+"&contact="+contact.getText().toString()+"&cnic="+cnic+"&f_name="+fname+"s&l_name="+lname+"&gender="+gender+"&address="+address+"")
+        AndroidNetworking.post("https://jashabhsoft.com/Tanker/register.php?email="+email+"&password="+password+"&contact="+contact.getText().toString()+"&cnic="+cnic+"&f_name="+fname+"&l_name="+lname+"&gender="+gender+"&address="+address+"")
 
                 .setTag("test")
                 .setPriority(Priority.MEDIUM)
