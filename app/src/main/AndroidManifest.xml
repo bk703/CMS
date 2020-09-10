@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AccountActivation"></activity>
+        <activity android:name=".EditProfile"></activity>
+        <activity android:name=".ComplainMessage" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".AccountActivation" />
         <activity android:name=".SignupAccount" />
         <activity android:name=".SignupContact" />
         <activity android:name=".Register_Activity" />
