@@ -10,7 +10,16 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AccountActivation"></activity>
+        <activity android:name=".WriteComplain"></activity>
+        <activity android:name=".TermAndCondition" />
+        <activity android:name=".PasswordChanged" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Complainsdashboard" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".ComplainSubmittedMessage" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".AccountActivation" />
         <activity android:name=".SignupAccount" />
         <activity android:name=".SignupContact" />
         <activity android:name=".Register_Activity" />

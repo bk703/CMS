@@ -17,7 +17,7 @@
             android:layout_gravity="center"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            app:srcCompat="@drawable/sp"
+            app:srcCompat="@drawable/splashscreen"
             android:scaleType="fitCenter"/>
     </RelativeLayout>
 </LinearLayout>
