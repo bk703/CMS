@@ -41,6 +41,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_cnic"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFF"
@@ -62,6 +63,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_singup_pass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFF"
@@ -82,6 +84,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_singup_confirmpass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFF"
@@ -92,12 +95,14 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <ImageView
+        <Button
+            android:text="next"
+            android:id="@+id/account_next"
             android:layout_width="wrap_content"
             android:src="@drawable/button"
             android:layout_height="wrap_content"
             android:layout_gravity="center">
 
-        </ImageView>
+        </Button>
     </LinearLayout>
 </LinearLayout>

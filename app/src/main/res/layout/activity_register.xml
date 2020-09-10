@@ -47,6 +47,7 @@
                 android:orientation="vertical">
 
                 <EditText
+                    android:id="@+id/et_fname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFF"
@@ -72,6 +73,7 @@
                 android:orientation="vertical">
 
                 <EditText
+                    android:id="@+id/et_l_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFF"
@@ -97,6 +99,7 @@
             android:layout_height="wrap_content">
 
             <EditText
+                android:id="@+id/et_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFF"
@@ -165,6 +168,7 @@
             android:layout_height="wrap_content">
 
             <EditText
+                android:id="@+id/et_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFF"
@@ -175,12 +179,13 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <ImageView
+    <Button
+        android:text="next"
+        android:id="@+id/personal_next"
         android:layout_width="wrap_content"
-        android:src="@drawable/button"
         android:layout_height="wrap_content"
-        android:layout_gravity="center">
-
-    </ImageView>
+        android:layout_gravity="center"
+        android:src="@drawable/button">
+    </Button>
 </LinearLayout>
 </LinearLayout>
