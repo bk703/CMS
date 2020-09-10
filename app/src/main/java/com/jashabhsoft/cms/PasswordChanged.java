@@ -10,5 +10,6 @@ public class PasswordChanged extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_password_changed);
+        getSupportActionBar().hide();
     }
 }

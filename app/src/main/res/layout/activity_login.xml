@@ -71,6 +71,7 @@
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFF"
                     android:hint="Password"
+                    android:inputType="textPassword"
                     android:paddingStart="10dp">
 
                 </EditText>

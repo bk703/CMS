@@ -30,6 +30,7 @@ public class SignupAccount extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_account);
+        getSupportActionBar().hide();
         cnic=findViewById(R.id.et_cnic);
         pass=findViewById(R.id.et_singup_pass);
         confirmpass=findViewById(R.id.et_singup_confirmpass);

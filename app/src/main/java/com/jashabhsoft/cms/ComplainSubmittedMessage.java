@@ -13,6 +13,7 @@ public class ComplainSubmittedMessage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complain_submitted_message);
+        getSupportActionBar().hide();
         backtohome=findViewById(R.id.back_to_home);
         backtohome.setOnClickListener(new View.OnClickListener() {
             @Override

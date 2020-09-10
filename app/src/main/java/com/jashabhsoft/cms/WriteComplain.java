@@ -15,6 +15,7 @@ public class WriteComplain extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_write_complain);
+        getSupportActionBar().hide();
         title=findViewById(R.id.et_title);
         description=findViewById(R.id.et_description);
         again=findViewById(R.id.write_another_complain);

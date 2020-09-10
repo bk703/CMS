@@ -33,6 +33,7 @@ public class SignupContact extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_contact);
+        getSupportActionBar().hide();
         contact=findViewById(R.id.et_contact);
         activate=findViewById(R.id.activate);
         fname = getIntent().getExtras().getString("fname");
