@@ -156,8 +156,10 @@ tools:context=".Dashboard"
             android:layout_margin="10dp"
             app:cardCornerRadius="20dp"
             android:background="@drawable/plumber"
+            android:id="@+id/plumber"
             >
             <ImageView
+
                 android:layout_width="wrap_content"
                 android:src="@drawable/plumber"
                 android:layout_height="wrap_content">
@@ -169,6 +171,7 @@ tools:context=".Dashboard"
             android:layout_height="100dp"
             android:layout_margin="10dp"
             app:cardCornerRadius="20dp"
+            android:id="@+id/electrition"
             >
             <ImageView
                 android:layout_width="wrap_content"
@@ -189,11 +192,13 @@ tools:context=".Dashboard"
                  android:layout_height="100dp"
                  android:layout_margin="10dp"
                  app:cardCornerRadius="20dp"
+                 android:id="@+id/carpenter"
                  >
+
                  <ImageView
-                     android:layout_width="wrap_content"
-                     android:src="@drawable/carpenter"
-                     android:layout_height="wrap_content">
+                     android:layout_width="88dp"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/carpenter">
 
                  </ImageView>
              </androidx.cardview.widget.CardView>
@@ -202,6 +207,7 @@ tools:context=".Dashboard"
                  android:layout_height="100dp"
                  android:layout_margin="10dp"
                  app:cardCornerRadius="20dp"
+                 android:id="@+id/tanker"
                  >
                  <ImageView
                      android:layout_width="wrap_content"

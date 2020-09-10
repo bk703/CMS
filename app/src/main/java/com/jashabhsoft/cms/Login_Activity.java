@@ -87,6 +87,8 @@ public class Login_Activity extends AppCompatActivity {
                             {
 
                                 Toast.makeText(Login_Activity.this,"Login Successfully" , Toast.LENGTH_SHORT).show();
+                                Intent i=new Intent(Login_Activity.this,Dashboard.class);
+                                startActivity(i);
 
                                 // getText() SHOULD NOT be static!!!startActivity(intent);
                             }

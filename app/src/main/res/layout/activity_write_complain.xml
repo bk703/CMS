@@ -91,6 +91,7 @@ tools:context=".WriteComplain">
             android:layout_height="wrap_content">
 
             <EditText
+                android:id="@+id/et_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFF"
@@ -111,6 +112,7 @@ tools:context=".WriteComplain">
             android:layout_height="wrap_content">
 
             <EditText
+                android:id="@+id/et_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFF"
@@ -127,6 +129,7 @@ tools:context=".WriteComplain">
         android:layout_marginTop="3dp"
         android:gravity="center">
 <Button
+    android:id="@+id/write_another_complain"
     android:layout_width="wrap_content"
     android:layout_marginLeft="5dp"
     android:layout_height="wrap_content"
@@ -135,6 +138,7 @@ tools:context=".WriteComplain">
     android:layout_margin="10dp"
     android:background="#22AF51"></Button>
         <Button
+            android:id="@+id/submit_complain"
             android:layout_width="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_height="wrap_content"
