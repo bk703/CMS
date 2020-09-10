@@ -43,6 +43,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_login_num"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFF"
@@ -64,6 +65,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_login_pass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFF"
@@ -84,6 +86,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/forget_pass"
                 android:layout_width="wrap_content"
                 android:text="Forget Password?"
                 android:textStyle="bold"
@@ -93,12 +96,14 @@
 
             </TextView>
 
-            <ImageView
+            <Button
+                android:text="login"
+                android:id="@+id/login_btn"
                 android:layout_width="wrap_content"
-                android:src="@drawable/loginbt"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:src="@drawable/loginbt">
 
-            </ImageView>
+            </Button>
 
         </LinearLayout>
 
@@ -122,6 +127,7 @@
             </TextView>
 
             <Button
+                android:id="@+id/signup_btn"
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
                 android:text="Signup"
