@@ -78,7 +78,9 @@ tools:context=".AccountActivation">
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="16dp"
-            android:text="Didn't Get The Code?">
+            android:text="Didn't Get The Code?"
+            android:textColor="#22AF51"
+            android:linksClickable="true">
 
         </TextView>
        <Button
