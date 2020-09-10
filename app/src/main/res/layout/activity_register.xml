@@ -9,6 +9,13 @@
     android:background="@drawable/bg"
     android:orientation="vertical"
     tools:context=".Register_Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="45dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp">
 
     <TextView
         android:layout_width="match_parent"
@@ -171,7 +178,9 @@
     <ImageView
         android:layout_width="wrap_content"
         android:src="@drawable/button"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
 
     </ImageView>
+</LinearLayout>
 </LinearLayout>
